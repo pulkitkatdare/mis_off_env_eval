@@ -86,7 +86,6 @@ python train_tabular_oee_estimator.py --env 'Taxi-v3' --exp-id 1 --sim_policy $a
 # Results
 ## Cartpole 
 ![](./assets/cartpole/legend.png)
-<<<<<<< HEAD
 <p>
     <img src="./assets/cartpole/cartpole_final.png" alt>
 </p>
@@ -167,10 +166,5 @@ LHS: Off Environment Evaluation for Taxi a fixed $\alpha=0.1$ and changing $\del
     <img src="assets/taxi/taxi_error_2.png" alt>
 </p>
 
-<<<<<<< HEAD
 Off Environment Evaluation for Taxi a fixed $\alpha=0.2$ and changing $\delta=\{0.2, 0.3, 0.4\}$ 
-=======
-|<img src="assets/taxi/taxi_error_2.png" alt="Acrobot" >|
-|:-----:|
-|Off Environment Evaluation for Taxi a fixed $\alpha=0.2$ and changing $\delta=\{0.2, 0.3, 0.4\}$ 
->>>>>>> 1eac750a49d2a6d2c523fcd3c5642ec6c9cd0cf4
+
