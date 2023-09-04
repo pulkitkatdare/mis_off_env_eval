@@ -86,54 +86,95 @@ python train_tabular_oee_estimator.py --env 'Taxi-v3' --exp-id 1 --sim_policy $a
 # Results
 ## Cartpole 
 ![](./assets/cartpole/legend.png)
+<<<<<<< HEAD
+<p>
+    <img src="./assets/cartpole/cartpole_final.png" alt>
+</p>
+=======
 |![](./assets/cartpole/cartpole_final.png)|
 |:-----:|
 |LHS: Off Environment Evaluation for Cartpole a fixed $\alpha=0.2$ and changing $\delta=\{0.6, 0.7, 0.8\}$, RHS: Effect of Off Environment with varying Sim2Real gap with fixed $\alpha=0.2,\delta=0.6$
+>>>>>>> 1eac750a49d2a6d2c523fcd3c5642ec6c9cd0cf4
 
-|<img src="assets/cartpole/error_150_5_cartpole.png" alt="cartpole" >|
-|:-----:|
-|LHS: Off Environment Evaluation for Cartpole a fixed $\alpha=0.5$ and changing $\delta=\{0.6, 0.7, 0.8\}$ RHS: Effect of Off Environment with varying Sim2Real gap with fixed $\alpha=0.5, \delta=0.6$
+LHS: Off Environment Evaluation for Cartpole a fixed $\alpha=0.2$ and changing $\delta=\{0.6, 0.7, 0.8\}$, RHS: Effect of Off Environment with varying Sim2Real gap with fixed $\alpha=0.2,\delta=0.6$
+<p>
+    <img src="assets/cartpole/error_150_5_cartpole.png" alt>
+</p>
 
-|<img src="assets/cartpole/error_150_8_cartpole.png" alt="cartpole" >|
-|:-----:|
-|Off Environment Evaluation for Cartpole a fixed $\alpha=0.8$ and changing $\delta=\{0.6, 0.7, 0.8\}$ 
+LHS: Off Environment Evaluation for Cartpole a fixed $\alpha=0.5$ and changing $\delta=\{0.6, 0.7, 0.8\}$ RHS: Effect of Off Environment with varying Sim2Real gap with fixed $\alpha=0.5, \delta=0.6$
+
+<p>
+    <img src="assets/cartpole/error_150_8_cartpole.png" alt>
+</p>
+
+Off Environment Evaluation for Cartpole a fixed $\alpha=0.8$ and changing $\delta=\{0.6, 0.7, 0.8\}$ 
 ## Reacher 
+
 ![](./assets/cartpole/legend.png)
-|<img src="assets/reacher/reacher_final.png" alt="Acrobot" >|
-|:-----:|
-|LHS: Off Environment Evaluation for Reacher a fixed $\alpha=0.0$ and changing $\delta=\{0.4, 0.5, 0.6\}$, RHS: Effect of Off Environment with varying Sim2Real gap with fixed $\alpha=0.0,\delta=0.4$
+<p>
+    <img src="assets/reacher/reacher_final.png" alt>
+</p>
 
-|<img src="assets/reacher/reacher_error_1_final.png" alt="Acrobot" >|
-|:-----:|
-|LHS: Off Environment Evaluation for Reacher a fixed $\alpha=0.1$ and changing $\delta=\{0.4, 0.5, 0.6\}$ RHS: Effect of Off Environment with varying Sim2Real gap with fixed $\alpha=0.1, \delta=0.4$
+LHS: Off Environment Evaluation for Reacher a fixed $\alpha=0.0$ and changing $\delta=\{0.4, 0.5, 0.6\}$, RHS: Effect of Off Environment with varying Sim2Real gap with fixed $\alpha=0.0,\delta=0.4$
 
-|<img src="assets/reacher/reacher_error_2.png" alt="Acrobot" >|
-|:-----:|
-|Off Environment Evaluation for Taxi a fixed $\alpha=0.8$ and changing $\delta=\{0.6, 0.7, 0.8\}$ 
+<p>
+    <img src="assets/reacher/reacher_error_1_final.png" alt>
+</p>
+
+LHS: Off Environment Evaluation for Reacher a fixed $\alpha=0.1$ and changing $\delta=\{0.4, 0.5, 0.6\}$ RHS: Effect of Off Environment with varying Sim2Real gap with fixed $\alpha=0.1, \delta=0.4$
+
+
+<p>
+    <img src="assets/reacher/reacher_error_2.png" alt>
+</p>
+
+Off Environment Evaluation for Taxi a fixed $\alpha=0.8$ and changing $\delta=\{0.6, 0.7, 0.8\}$ 
 
 
 ## HalfCheetah
 ![](./assets/cartpole/legend.png)
-|<img src="assets/half_cheetah/halfcheetah_error_0.png" alt="Acrobot" >|
-|:-----:|
-|Off Environment Evaluation for HalfCheetah a fixed $\alpha=0.0$ and changing $\delta=\{0.4, 0.5, 0.6\}$ 
 
-|<img src="assets/half_cheetah/halfcheetah_error_1.png" alt="Acrobot" >|
-|:-----:|
-|Off Environment Evaluation for HalfCheetah a fixed $\alpha=0.2$ and changing $\delta=\{0.4, 0.5, 0.6\}$ 
+<p>
+    <img src="assets/half_cheetah/halfcheetah_error_0.png" alt>
+</p>
 
-|<img src="assets/half_cheetah/halfcheetah_error_2.png" alt="Acrobot" >|
-|:-----:|
-|Off Environment Evaluation for HalfCheetah a fixed $\alpha=0.0$ and changing $\delta=\{0.4, 0.5, 0.6\}$ 
+Off Environment Evaluation for HalfCheetah a fixed $\alpha=0.0$ and changing $\delta=\{0.4, 0.5, 0.6\}$ 
+
+<p>
+    <img src="assets/half_cheetah/halfcheetah_error_1.png" alt>
+</p>
+
+Off Environment Evaluation for HalfCheetah a fixed $\alpha=0.2$ and changing $\delta=\{0.4, 0.5, 0.6\}$ 
+
+<p>
+    <img src="assets/half_cheetah/halfcheetah_error_2.png" alt>
+</p>
+
+
+Off Environment Evaluation for HalfCheetah a fixed $\alpha=0.0$ and changing $\delta=\{0.4, 0.5, 0.6\}$ 
+
 ## Taxi 
-|<img src="assets/taxi/taxi_error_0_final.png" alt="Acrobot" >|
-|:-----:|
-|LHS: Off Environment Evaluation for Taxi a fixed $\alpha=0.01$ and changing $\delta=\{0.2, 0.3, 0.4\}$ RHS: Effect of Off Environment with varying Sim2Real gap with fixed $\alpha=0.01, \delta=0.2$
+<p>
+    <img src="assets/taxi/taxi_error_0_final.png" alt>
+</p>
 
-|<img src="assets/taxi/taxi_error_1_final.png" alt="Acrobot" >|
-|:-----:|
-|LHS: Off Environment Evaluation for Taxi a fixed $\alpha=0.1$ and changing $\delta=\{0.2, 0.3, 0.4\}$ RHS: Effect of Off Environment with varying Sim2Real gap with fixed $\alpha=0.1, \delta=0.2$
+LHS: Off Environment Evaluation for Taxi a fixed $\alpha=0.01$ and changing $\delta=\{0.2, 0.3, 0.4\}$ RHS: Effect of Off Environment with varying Sim2Real gap with fixed $\alpha=0.01, \delta=0.2$
 
+<p>
+    <img src="assets/taxi/taxi_error_1_final.png" alt>
+</p>
+
+
+LHS: Off Environment Evaluation for Taxi a fixed $\alpha=0.1$ and changing $\delta=\{0.2, 0.3, 0.4\}$ RHS: Effect of Off Environment with varying Sim2Real gap with fixed $\alpha=0.1, \delta=0.2$
+
+<p>
+    <img src="assets/taxi/taxi_error_2.png" alt>
+</p>
+
+<<<<<<< HEAD
+Off Environment Evaluation for Taxi a fixed $\alpha=0.2$ and changing $\delta=\{0.2, 0.3, 0.4\}$ 
+=======
 |<img src="assets/taxi/taxi_error_2.png" alt="Acrobot" >|
 |:-----:|
 |Off Environment Evaluation for Taxi a fixed $\alpha=0.2$ and changing $\delta=\{0.2, 0.3, 0.4\}$ 
+>>>>>>> 1eac750a49d2a6d2c523fcd3c5642ec6c9cd0cf4
