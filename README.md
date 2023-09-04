@@ -86,7 +86,7 @@ python train_tabular_oee_estimator.py --env 'Taxi-v3' --exp-id 1 --sim_policy $a
 # Results
 ## Cartpole 
 ![](./assets/cartpole/legend.png)
-|![](assets/cartpole/cartpole_final.png)|
+|![](./assets/cartpole/cartpole_final.png)|
 |:-----:|
 |LHS: Off Environment Evaluation for Cartpole a fixed $\alpha=0.2$ and changing $\delta=\{0.6, 0.7, 0.8\}$, RHS: Effect of Off Environment with varying Sim2Real gap with fixed $\alpha=0.2,\delta=0.6$
 
