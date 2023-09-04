@@ -1,0 +1,9 @@
+12th October, 2022
+Pulkit sends an update
+1. Train HalfCheetah Policy 
+2. Collect Offline Data 
+3. Starting of PPO 
+	3.a Data collection in the simulation
+	3.b Estimating MISmatch 
+	3.c Data Collection for training on simulaion 
+	3.d Updating policy 
